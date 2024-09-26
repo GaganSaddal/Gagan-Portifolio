@@ -14,6 +14,7 @@ export default function Greeting() {
   if (!greeting.displayGreeting) {
     return null;
   }
+  //
   return (
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
